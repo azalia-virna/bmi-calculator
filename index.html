@@ -10,17 +10,24 @@
 
   <body>
     <h1>Check Your Body Mass Index</h1>
-    <div class="wrapper">
-      <p>Your Height:
-        <input type="text" id="height"><br><span id="height_error"></span>
-      </p>
+    <div  class="wrapper">
+      <div class="calculation">
+        <div class="inputWH">
+          <p>Your Weight:
+            <input type="text" id="weight"><br><span id="weight_error"></span>
+          </p>
+        </div>
 
-      <p>Your Weight:
-        <input type="text" id="weight"><br><span id="weight_error"></span>
-      </p>
+        <div class="inputWH">
+          <p>Your Height:
+            <input type="text" id="height"><br><span id="height_error"></span>
+          </p>
+        </div>
+      </div>
 
-      <button id="btn">Check</button>
-      <p id="output"></p>
+      <button class="calc" id="button">Check</button>
+      <p id="result"></p>
     </div>
   </body>
 </html>
+
